@@ -2,16 +2,16 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import languages from "./languages";
-import enGbTranslations from "./translations/en-gb";
-import enUsTranslations from "./translations/en-us";
+import englishTranslations from "./translations/en";
+import spanishTranslations from "./translations/es";
 
 i18n.use(initReactI18next).init({
   resources: {
-    'en-US': {
-      translation: enUsTranslations,
+    'es': {
+      translation: spanishTranslations,
     },
-    'en-GB': {
-      translation: enGbTranslations,
+    'en': {
+      translation: englishTranslations,
     },
     // Add other languages here
   },

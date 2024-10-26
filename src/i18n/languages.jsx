@@ -1,6 +1,8 @@
 const languages = {
-  default: 'en-GB',
-  fallback: 'en-GB',
+  spanish: 'es',
+  english: 'en',
+  default: 'en',
+  fallback: 'en',
 };
 
 export default languages;
