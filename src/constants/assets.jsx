@@ -1,3 +1,8 @@
+const assetIcons = {
+  profile: "<URL>",
+  // Add more as needed
+};
+
 const assetImages = {
   heroImage: "<URL>",
   // Add more as needed
@@ -8,4 +13,4 @@ const assetVideos = {
   // Add more as needed
 };
 
-export {assetImages, assetVideos};
+export {assetIcons, assetImages, assetVideos};
