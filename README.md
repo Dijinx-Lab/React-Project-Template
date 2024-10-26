@@ -8,7 +8,7 @@ This project serves as an internal starting point for creating a react project w
 - Browser caching off
 - Disconnected manifest.json to remove install app option
 - Custom icons
-- + more
+- and more
 
 
 ## Getting Started
