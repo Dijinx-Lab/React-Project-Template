@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 import { getColors } from '../theme/colors';
+import { localStorageKeys } from '../constants/storage-keys';
 
 const ThemeContext = createContext();
 
@@ -16,7 +17,7 @@ export const ThemeProvider = ({ children }) => {
   const toggleTheme = () => {
     setIsDarkMode((prevMode) => {
       const newMode = !prevMode;
-      localStorage.setItem('isDarkMode', JSON.stringify(newMode));
+      localStorage.setItem(localStorageKeys.darkThemePreference, JSON.stringify(newMode));
       return newMode;
     });
   };
